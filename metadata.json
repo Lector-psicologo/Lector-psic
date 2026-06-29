@@ -1,0 +1,6 @@
+{
+  "name": "Lector Psicólogo",
+  "description": "Plataforma web profesional del psicólogo Miguel Angel Del Campo (C.Ps.P. 25871), especialista en psicoterapia y consultoría psicológica para niños, adolescentes, adultos y empresas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
