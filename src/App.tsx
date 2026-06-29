@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Stats from './components/Stats';
 import Services from './components/Services';
+import CorporateDossier from './components/CorporateDossier';
 import Biography from './components/Biography';
 import Resources from './components/Resources';
 import Testimonials from './components/Testimonials';
@@ -40,6 +41,9 @@ export default function App() {
 
       {/* Services Showcase (Filterable Individual vs. Enterprise) */}
       <Services onSelectService={handleSelectService} />
+
+      {/* Corporate Dossier & Interactive Deck */}
+      <CorporateDossier />
 
       {/* Extensive Biography & clinical experience */}
       <Biography />

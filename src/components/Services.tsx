@@ -145,8 +145,16 @@ export default function Services({ onSelectService }: { onSelectService: (servic
                 </ul>
               </div>
 
+              {/* Price badge */}
+              {service.price && (
+                <div className="mt-6 p-3.5 bg-slate-950/50 rounded-2xl border border-slate-800/80 text-[11px] font-mono text-brand-orange tracking-tight leading-normal">
+                  <span className="text-slate-400 font-sans block text-[10px] uppercase font-bold tracking-wider mb-0.5">Inversión Estimada</span>
+                  {service.price}
+                </div>
+              )}
+
               {/* Action Button */}
-              <div className="pt-8 mt-6 border-t border-slate-800 flex items-center justify-between">
+              <div className="pt-6 mt-6 border-t border-slate-800 flex items-center justify-between">
                 <button
                   onClick={() => onSelectService(service)}
                   className="inline-flex items-center space-x-2 text-sm font-bold text-slate-300 hover:text-brand-orange transition-colors"

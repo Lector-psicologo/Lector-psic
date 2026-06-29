@@ -10,6 +10,7 @@ export interface ServiceItem {
   details: string[];
   icon: string; // Lucide icon name
   category: 'individual' | 'empresarial';
+  price?: string;
 }
 
 export interface SectorItem {

@@ -36,7 +36,8 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Toma de decisiones guiada por objetivos terapéuticos claros."
     ],
     icon: "User",
-    category: "individual"
+    category: "individual",
+    price: "Desde S/ 100.00 por sesión (Presencial, Virtual o de Descompresión en la Playa)"
   },
   {
     id: "habilidades-sociales",
@@ -49,7 +50,8 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Técnicas de negociación, empatía y escucha activa."
     ],
     icon: "Users",
-    category: "individual"
+    category: "individual",
+    price: "Desde S/ 100.00 por sesión"
   },
   {
     id: "evaluaciones-psicologicas",
@@ -62,7 +64,8 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Evaluación del clima y cultura organizacional."
     ],
     icon: "FileCheck",
-    category: "empresarial"
+    category: "empresarial",
+    price: "Desde S/ 5.00 por persona evaluada"
   },
   {
     id: "talleres-sbs",
@@ -75,7 +78,8 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Diagnóstico y control de factores estresores de la organización."
     ],
     icon: "ShieldAlert",
-    category: "empresarial"
+    category: "empresarial",
+    price: "Desde S/ 5.00 por persona (Evaluaciones) o S/ 230.00 por hora (Talleres)"
   },
   {
     id: "capacitaciones-hostigamiento",
@@ -88,7 +92,8 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Certificado oficial de cumplimiento de capacitación laboral."
     ],
     icon: "HeartOff",
-    category: "empresarial"
+    category: "empresarial",
+    price: "Desde S/ 230.00 por hora de ponencia"
   },
   {
     id: "talleres-blandas-corporativo",
@@ -101,7 +106,8 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Fomento de la motivación intrínseca en equipos multidisciplinarios."
     ],
     icon: "Briefcase",
-    category: "empresarial"
+    category: "empresarial",
+    price: "Desde S/ 230.00 por hora de capacitación"
   },
   {
     id: "psicologia-coaching-empleados",
@@ -114,7 +120,8 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Desarrollo de la resiliencia personal y enfoque en metas profesionales."
     ],
     icon: "Activity",
-    category: "empresarial"
+    category: "empresarial",
+    price: "Desde S/ 100.00 por sesión personalizada"
   }
 ];
 
