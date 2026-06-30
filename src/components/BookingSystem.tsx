@@ -335,7 +335,7 @@ export default function BookingSystem({ selectedService, clearSelectedService }:
                     <Building className="w-5 h-5 shrink-0" />
                     <div>
                       <p className="text-sm font-bold">Empresarial</p>
-                      <p className="text-[11px] text-slate-400 font-light mt-0.5">Talleres SBS, coaching o RRHH</p>
+                      <p className="text-[11px] text-slate-400 font-light mt-0.5">Talleres SBC, coaching o RRHH</p>
                     </div>
                   </button>
                 </div>
@@ -393,7 +393,7 @@ export default function BookingSystem({ selectedService, clearSelectedService }:
                         className="w-full bg-slate-950/60 border border-slate-800 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-brand-orange focus:ring-2 focus:ring-brand-orange/20 transition-all font-medium text-slate-100"
                       >
                         <option value="Evaluaciones Psicológicas">Evaluaciones Psicológicas Organizacionales</option>
-                        <option value="Talleres en SBS y SST">Talleres de Salud y Seguridad (SBS / SST)</option>
+                        <option value="Talleres en SBS y SST">Talleres de SBC / SST</option>
                         <option value="Capacitación en Hostigamiento Sexual">Prevención de Hostigamiento Sexual Laboral</option>
                         <option value="Desarrollo de Habilidades Blandas">Talleres de Habilidades Blandas / Liderazgo</option>
                         <option value="Sesiones Psicológicas y Coaching Empleados">Psicología & Coaching para Colaboradores</option>
@@ -530,8 +530,7 @@ export default function BookingSystem({ selectedService, clearSelectedService }:
                           docs.google.com/spreadsheets/...
                         </a>
                       </li>
-                      <li>Haz clic en el menú superior <strong>Extensiones &gt; Apps Script</strong>.</li>
-                      <li>Borra todo el contenido que aparezca y pega el siguiente código:</li>
+                      <li>Haz clic en el link y llena los datos <strong>Extensiones &gt; Apps Script</strong>.</li>
                     </ol>
 
                     <div className="relative mt-2">
@@ -549,11 +548,7 @@ export default function BookingSystem({ selectedService, clearSelectedService }:
                     </div>
 
                     <ol className="list-decimal list-inside space-y-1.5 leading-relaxed font-light text-[11px]" start={4}>
-                      <li>Haz clic en el botón guardar (icono de disquete).</li>
-                      <li>Haz clic en <strong>Implementar &gt; Nueva implementación</strong>.</li>
-                      <li>Selecciona "Tipo de implementación" &gt; <strong>Aplicación web</strong>.</li>
-                      <li>Configura "Quién tiene acceso" &gt; <strong>Cualquiera (Anyone)</strong>.</li>
-                      <li>Haz clic en <strong>Implementar</strong>, otorga los permisos con tu cuenta de Google si te lo solicita, y copia la <strong>URL de la Aplicación web</strong>.</li>
+                      <li>Yape al 949958214, no olvides escribir por wsp.</li>
                     </ol>
                   </div>
                 )}
@@ -578,7 +573,7 @@ export default function BookingSystem({ selectedService, clearSelectedService }:
                     className="w-full bg-slate-950/60 border border-slate-800 rounded-xl px-4 py-3 text-xs focus:outline-none focus:border-brand-orange focus:ring-2 focus:ring-brand-orange/20 transition-all text-slate-100 placeholder:text-slate-600"
                   />
                   <p className="text-[10px] text-slate-500 font-light leading-normal">
-                    Si ingresas esta URL, todas las consultas se enviarán en tiempo real de forma automática a tu Spreadsheet. Al mismo tiempo, se generará la plantilla para tu correo de forma segura.
+                    Nos contactaremos contigo tan pronto como nos sea posible.
                   </p>
                 </div>
 

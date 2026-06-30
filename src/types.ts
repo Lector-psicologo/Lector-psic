@@ -25,6 +25,7 @@ export interface VideoItem {
   description: string;
   youtubeId: string;
   thumbnailUrl: string;
+  href?: string;
 }
 
 export interface TestimonialItem {

@@ -37,7 +37,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     ],
     icon: "User",
     category: "individual",
-    price: "Desde S/ 100.00 por sesión (Presencial, Virtual o de Descompresión en la Playa)"
+    price: "Desde S/ 120.00 por sesión (Presencial, Virtual, a domicilio y en la playa)"
   },
   {
     id: "habilidades-sociales",
@@ -51,7 +51,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     ],
     icon: "Users",
     category: "individual",
-    price: "Desde S/ 100.00 por sesión"
+    price: "Desde S/ 120.00 por sesión"
   },
   {
     id: "evaluaciones-psicologicas",
@@ -65,12 +65,12 @@ export const SERVICES_DATA: ServiceItem[] = [
     ],
     icon: "FileCheck",
     category: "empresarial",
-    price: "Desde S/ 5.00 por persona evaluada"
+    price: "Desde S/ 10.00 por persona en evaluaciones masivas"
   },
   {
     id: "talleres-sbs",
-    title: "Talleres y Programas en SBS (Seguridad y Salud)",
-    description: "Programas preventivos y capacitaciones alineadas a las normativas de la SBS y salud mental en el trabajo para mitigar riesgos psicosociales.",
+    title: "Talleres y Programas en SBC (Seguridad basada en el comportamiento)",
+    description: "Programas preventivos y capacitaciones alineadas a la SBC y salud mental en el trabajo para mitigar riesgos psicosociales.",
     details: [
       "Prevención y manejo del síndrome de Burnout (agotamiento).",
       "Talleres prácticos de ergonomía mental y pausas activas emocionales.",
@@ -79,7 +79,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     ],
     icon: "ShieldAlert",
     category: "empresarial",
-    price: "Desde S/ 5.00 por persona (Evaluaciones) o S/ 230.00 por hora (Talleres)"
+    price: "Desde S/ 10.00 por persona (Evaluaciones masivas) o S/ 250.00 por hora (Talleres)"
   },
   {
     id: "capacitaciones-hostigamiento",
@@ -93,7 +93,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     ],
     icon: "HeartOff",
     category: "empresarial",
-    price: "Desde S/ 230.00 por hora de ponencia"
+    price: "Desde S/ 250.00 por hora de ponencia"
   },
   {
     id: "talleres-blandas-corporativo",
@@ -107,7 +107,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     ],
     icon: "Briefcase",
     category: "empresarial",
-    price: "Desde S/ 230.00 por hora de capacitación"
+    price: "Desde S/ 250.00 por hora de capacitación"
   },
   {
     id: "psicologia-coaching-empleados",
@@ -121,7 +121,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     ],
     icon: "Activity",
     category: "empresarial",
-    price: "Desde S/ 100.00 por sesión personalizada"
+    price: "Desde S/ 120.00 por sesión personalizada"
   }
 ];
 
@@ -136,24 +136,27 @@ export const SECTORS_DATA: SectorItem[] = [
 export const VIDEOS_DATA: VideoItem[] = [
   {
     id: "video-1",
-    title: "Terapia Cognitivo Conductual: Ciencia y Acción",
-    description: "Una explicación clara sobre cómo nuestros pensamientos influyen en nuestras emociones y qué herramientas prácticas de la TCC podemos usar diariamente.",
+    title: "¿Qué hace que una persona tenga doble vida?",
+    description: "Una explicación sobre por qué algunas personas son infieles and qué herramientas prácticas de la TCC podemos usar.",
     youtubeId: "W7oH7_U0H0w", // Mock/Placeholder YouTube IDs
-    thumbnailUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80"
+    thumbnailUrl: "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-1/715512016_122099220243353572_98516494649347457_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s200x200&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=c2CtZhVRjSYQ7kNvwFCsMWx&_nc_oc=AdrXdMpkjH4BSfapErooy_E7t0DITkLHhfdbxDgmc7NLpriaR47pSNtmCUyPfVNGlUo&_nc_zt=24&_nc_ht=scontent.flim38-1.fna&_nc_gid=LJ7vx-WidRHygvVgVJHqIQ&_nc_ss=7c2a8&oh=00_AQA9zn3nQ0M5Br_HZVkSPvbt9iLtH7Ci1NWt-bJNijirAw&oe=6A48F917",
+    href: "https://www.facebook.com/reel/24640220422288219"
   },
   {
     id: "video-2",
-    title: "Autismo y Espectro Azul: Comprendiendo el TEA",
+    title: "Autismo Comprendiendo el TEA",
     description: "Reflexiones basadas en la experiencia como conductor del programa de cable 'Latidos azules' para concientizar sobre el autismo y derribar mitos.",
     youtubeId: "vA_S_FIsFaw",
-    thumbnailUrl: "https://images.unsplash.com/photo-1551847677-fc247e93914a?auto=format&fit=crop&w=800&q=80"
+    thumbnailUrl: "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-1/715512016_122099220243353572_98516494649347457_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s200x200&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=c2CtZhVRjSYQ7kNvwFCsMWx&_nc_oc=AdrXdMpkjH4BSfapErooy_E7t0DITkLHhfdbxDgmc7NLpriaR47pSNtmCUyPfVNGlUo&_nc_zt=24&_nc_ht=scontent.flim38-1.fna&_nc_gid=LJ7vx-WidRHygvVgVJHqIQ&_nc_ss=7c2a8&oh=00_AQA9zn3nQ0M5Br_HZVkSPvbt9iLtH7Ci1NWt-bJNijirAw&oe=6A48F917",
+    href: "https://www.youtube.com/@LatidosAzules"
   },
   {
     id: "video-3",
-    title: "Liderazgo en el Trabajo: Cómo Desarrollar Habilidades Blandas",
-    description: "Lecciones clave para profesionales y empresas sobre cómo el auto-liderazgo y la inteligencia emocional transforman entornos laborales complejos.",
+    title: "¿Cómo afrontar a un hijo rebelde?",
+    description: "Lecciones sobre crianza e inteligencia emocional.",
     youtubeId: "Z5h5pB-x_lI",
-    thumbnailUrl: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80"
+    thumbnailUrl: "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-1/715512016_122099220243353572_98516494649347457_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s200x200&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=c2CtZhVRjSYQ7kNvwFCsMWx&_nc_oc=AdrXdMpkjH4BSfapErooy_E7t0DITkLHhfdbxDgmc7NLpriaR47pSNtmCUyPfVNGlUo&_nc_zt=24&_nc_ht=scontent.flim38-1.fna&_nc_gid=LJ7vx-WidRHygvVgVJHqIQ&_nc_ss=7c2a8&oh=00_AQA9zn3nQ0M5Br_HZVkSPvbt9iLtH7Ci1NWt-bJNijirAw&oe=6A48F917",
+    href: "https://www.facebook.com/reel/1836196306837207"
   }
 ];
 
@@ -167,13 +170,13 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
   {
     id: "t-2",
     quote: "Gracias a la terapia cognitivo-conductual con Miguel, logré superar un cuadro de ansiedad severa que afectaba mi rendimiento laboral y familiar. Es un profesional íntegro, científico y muy humano.",
-    author: "Ing. Alejandro Romero",
+    author: "Ing. A.R.L",
     role: "Paciente de Terapia de Adultos (Lima)"
   },
   {
     id: "t-3",
     quote: "El taller de habilidades sociales para adolescentes ayudó muchísimo a mi hijo a ganar confianza, expresarse asertivamente y mejorar su liderazgo escolar. Muy recomendado.",
-    author: "Elena Santillán",
+    author: "E.S.D",
     role: "Madre de familia (Acompañamiento a Menores)"
   }
 ];

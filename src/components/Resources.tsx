@@ -93,7 +93,7 @@ export default function Resources() {
             {VIDEOS_DATA.map((video) => (
               <a 
                 key={video.id}
-                href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
+                href={video.href || `https://www.youtube.com/watch?v=${video.youtubeId}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-slate-900/65 backdrop-blur-sm rounded-2xl overflow-hidden border border-slate-800 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full"

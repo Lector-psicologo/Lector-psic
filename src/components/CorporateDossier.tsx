@@ -71,14 +71,14 @@ export default function CorporateDossier() {
                 alt="Ps. Miguel Angel Del Campo" 
                 className="w-full h-full object-cover object-top"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80';
+                  (e.target as HTMLImageElement).src = 'https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-1/715512016_122099220243353572_98516494649347457_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1024&ctp=s200x200&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=c2CtZhVRjSYQ7kNvwFCsMWx&_nc_oc=AdrXdMpkjH4BSfapErooy_E7t0DITkLHhfdbxDgmc7NLpriaR47pSNtmCUyPfVNGlUo&_nc_zt=24&_nc_ht=scontent.flim38-1.fna&_nc_gid=LJ7vx-WidRHygvVgVJHqIQ&_nc_ss=7c2a8&oh=00_AQA9zn3nQ0M5Br_HZVkSPvbt9iLtH7Ci1NWt-bJNijirAw&oe=6A48F917';
                 }}
               />
             </div>
           </div>
           <div className="md:col-span-8 space-y-4">
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-light">
-              Soy psicólogo colegiado con el registro <strong className="text-white">CPSP 25871</strong>, Magíster, psicoterapeuta, conferencista y capacitador con <strong className="text-brand-orange">más de 12 años de experiencia</strong> diseñando y ejecutando talleres enfocados en la salud mental y en el desarrollo personal y organizacional.
+              Psicólogo colegiado con el registro <strong className="text-white">CPSP 25871</strong>, Magíster, psicoterapeuta, conferencista y capacitador con <strong className="text-brand-orange">más de 12 años de experiencia</strong> diseñando y ejecutando talleres enfocados en la salud mental y en el desarrollo personal y organizacional.
             </p>
             <p className="text-sm text-slate-400 leading-relaxed font-light">
               Además, he sido conductor en televisión por cable del programa <strong className="text-white">"Latidos Azules"</strong>, espacio enfocado en fomentar la psicoeducación y apoyo a padres con hijos con autismo y cuidadores en todo el país.
@@ -140,8 +140,8 @@ export default function CorporateDossier() {
           </div>
           <div className="bg-brand-orange/5 border border-brand-orange/20 rounded-3xl p-6 text-center space-y-3">
             <p className="text-xs text-brand-orange uppercase tracking-wider font-bold">Tarifa Corporativa</p>
-            <p className="text-4xl font-black text-white font-display">S/ 5.00 <span className="text-sm font-normal text-slate-400">soles</span></p>
-            <p className="text-xs text-slate-400 font-light">Por persona / colaborador evaluado.</p>
+            <p className="text-4xl font-black text-white font-display">S/ 10.00 <span className="text-sm font-normal text-slate-400">soles</span></p>
+            <p className="text-xs text-slate-400 font-light">Por persona / evaluaciones masivas.</p>
             <p className="text-[10px] text-slate-500 italic pt-2 border-t border-slate-800">Sujeto a volumen de planilla. Aplican términos y condiciones.</p>
           </div>
         </div>
@@ -160,7 +160,7 @@ export default function CorporateDossier() {
             <ul className="space-y-2.5 text-xs text-slate-400">
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-brand-orange shrink-0" />
-                <span>Modalidad Flexible: Sesiones Presenciales, Virtuales o Sesiones Innovadoras en la Playa para descompresión profunda.</span>
+                <span>Modalidad Flexible: Sesiones Presenciales, Virtuales o Sesiones Innovadoras en la Playa para depresión y ansiedad.</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-brand-orange shrink-0" />
@@ -174,7 +174,7 @@ export default function CorporateDossier() {
           </div>
           <div className="bg-brand-orange/5 border border-brand-orange/20 rounded-3xl p-6 text-center space-y-3">
             <p className="text-xs text-brand-orange uppercase tracking-wider font-bold">Inversión Individual</p>
-            <p className="text-4xl font-black text-white font-display">S/ 100.00 <span className="text-sm font-normal text-slate-400">soles</span></p>
+            <p className="text-4xl font-black text-white font-display">S/ 120.00 <span className="text-sm font-normal text-slate-400">soles</span></p>
             <p className="text-xs text-slate-400 font-light">Por sesión personalizada presencial / virtual.</p>
             <p className="text-[10px] text-slate-500 italic pt-2 border-t border-slate-800">Tarifa social y corporativa disponible previa coordinación.</p>
           </div>
@@ -208,7 +208,7 @@ export default function CorporateDossier() {
           </div>
           <div className="md:col-span-4 bg-brand-orange/5 border border-brand-orange/20 rounded-3xl p-5 text-center space-y-2">
             <p className="text-xs text-brand-orange uppercase tracking-wider font-bold">Tarifa Ponencia</p>
-            <p className="text-3xl font-black text-white font-display">S/ 230.00</p>
+            <p className="text-3xl font-black text-white font-display">S/ 250.00</p>
             <p className="text-[10px] text-slate-400">Soles la hora de capacitación.</p>
             <p className="text-[9px] text-slate-500 italic border-t border-slate-800 pt-1.5 mt-1.5">No incluye gastos de traslado a provincias.</p>
           </div>
@@ -381,7 +381,7 @@ export default function CorporateDossier() {
       doc.text("2. Servicio de Consulta Psicologica y Psicoterapia", 20, 88);
       doc.setFontSize(11);
       doc.setTextColor(148, 163, 184);
-      doc.text("  - Sesion personalizada (Presencial, virtual o de descompresion innovadora en la playa).", 20, 95);
+      doc.text("  - Sesion personalizada (Presencial, virtual, a dominicio o en la playa para depresión y ansiedad).", 20, 95);
       doc.text("  - Aplicacion de test psicologicos e informes clinicos formales.", 20, 101);
       doc.text("  - Psicoterapia Cognitivo-Conductual cientificamente validada.", 20, 107);
 
@@ -417,20 +417,20 @@ export default function CorporateDossier() {
       doc.setFont("helvetica", "normal");
       doc.setTextColor(203, 213, 225);
       doc.text("Monitoreo de Riesgo Psicosocial", 30, 80);
-      doc.text("Por persona evaluada", 140, 80);
-      doc.text("Desde S/ 5.00 soles", 220, 80);
+      doc.text("Por persona en evaluaciones masivas", 140, 80);
+      doc.text("Desde S/ 10.00 soles", 220, 80);
 
       doc.line(25, 88, 272, 88);
 
       doc.text("Consulta Psicologica / Psicoterapia", 30, 100);
       doc.text("Por sesion (1 hora)", 140, 100);
-      doc.text("Desde S/ 100.00 soles", 220, 100);
+      doc.text("Desde S/ 120.00 soles", 220, 100);
 
       doc.line(25, 108, 272, 108);
 
       doc.text("Talleres y Habilidades Blandas", 30, 120);
       doc.text("Por hora de ponencia", 140, 120);
-      doc.text("Desde S/ 230.00 soles", 220, 120);
+      doc.text("Desde S/ 250.00 soles", 220, 120);
 
       doc.line(25, 128, 272, 128);
 
